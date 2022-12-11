@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #ccc;
+  font-family: sans-serif;
+}
+
+.noni-b {
+  display: flex;
+  flex-direction: column;
+  transform: translateY(0px);
+}
+
+.noni-bo {
+  transform: translateY(0px);
+}
+
+.up {
+  all: unset;
+  transform: translateY(10px);
+  z-index: 999;
+}
+
+.down {
+  transform: translateY(10px);
+  z-index: 99;
+}/*# sourceMappingURL=main.css.map */

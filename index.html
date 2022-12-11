@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/css/main.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <title>Burger</title>
+  </head>
+  <body class="">
+    <div
+      class="container my-5 mx-auto d-flex justify-content-center flex-wrap gap-5"
+    >
+      <main class="burger my-auto">
+        <div class="noni-b">
+          <img src="./burger-layers/top-bread.svg" alt="bread" class="up" />
+        </div>
+        <div class="masalliq"></div>
+        <div class="noni-bo">
+          <img src="./burger-layers/bottom-bread.svg" alt="bb" class="down" />
+        </div>
+      </main>
+
+      <div class="right">
+        <div class="narxlar">
+          <h3>Cheese - 2$</h3>
+          <h3>Meat - 5$</h3>
+          <h3>Onion - 1$</h3>
+          <h3>Salad - 1$</h3>
+          <h3>Tomato - 2$</h3>
+          <h3>Pickle - 3$</h3>
+          <h3>Bread - 2$</h3>
+        </div>
+        <form class="my-4">
+          <button
+            class="Cheese btn-warning py-2 btn-ch text-success fw-bold px-3 rounded-2"
+          >
+            Cheese
+          </button>
+          <button
+            class="Meat btn-danger py-2 btn-m px-3 text-light fw-bold rounded-2"
+          >
+            Meat
+          </button>
+          <button
+            class="Onion btn-light py-2 btn-o px-3 text-success fw-bold rounded-2"
+          >
+            Onion
+          </button>
+          <button
+            class="Salad btn-success py-2 btn-s px-3 rounded-2 text-warning fw-bold"
+          >
+            Salad
+          </button>
+          <button
+            class="Tomato btn-danger py-2 btn-t px-3 rounded-2 text-info fw-bold"
+          >
+            Tomato
+          </button>
+          <button
+            class="Pickle btn-success text-light btn-p fw-bold py-2 px-3 rounded-2"
+          >
+            Pickle
+          </button>
+        </form>
+        <form>
+          <button
+            class="btn btn-warning text-danger fw-bold py-2 px-5 my-4 mx-5 retry"
+          >
+            Retry
+          </button>
+          <button
+            class="btn btn-warning text-light fw-bold py-2 px-5 my-4 mx-5 send"
+          >
+            Send
+          </button>
+        </form>
+        <h2 class="total"></h2>
+      </div>
+    </div>
+    <h1
+      class="fw-bold d-flex align-items-center justify-content-center queue text-info"
+    ></h1>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
