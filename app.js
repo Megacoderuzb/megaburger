@@ -105,8 +105,9 @@ pickle.addEventListener("click", (e) => {
 let hisob = 2;
 let total = document.querySelector(".total");
 total.textContent = `Total:  ${hisob}$ dollar`;
-let retry = document.querySelector(".retry");
+let retry = document.getElementById("retry");
 retry.addEventListener("click", (e) => {
+  e.preventDefault();
   masalliq.innerHTML = "";
   hisob = 2;
   total.textContent = `Total:  ${hisob}$ dollar`;
